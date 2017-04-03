@@ -3,8 +3,8 @@
       <div class="col-lg-9 main-chart">
          <div class = "container-fluid">
 		 <form>
-				<button type="submit" id="filter" class="btn btn-primary btn-sm" formaction="/History/dateSort">Sort by date</button>
-				<button type="submit" id="filter" class="btn btn-primary btn-sm" formaction="/History/robotIDSort">Sort by robot ID</button>
+				<button type="submit" id="filter"  formaction="/History/dateSort">Sort by date</button>
+				<button type="submit" id="filter"  formaction="/History/robotIDSort">Sort by robot ID</button>
 		 </form>
             <table class="table" id="table_history">
 			<!--
